@@ -1,0 +1,14 @@
+server:
+  port: 81
+
+spring:
+  application:
+    name: servlet-security-demo
+  security:
+    user:
+      name: user
+      password: 12345
+logging:
+  level:
+    org.springframework.security: debug
+
